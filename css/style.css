@@ -1,0 +1,71 @@
+.top_list li {
+    display: inline;
+    font-size: 1vw;
+    padding: 2px;
+}
+
+#over_2 {
+    overflow-x: hidden;
+}
+
+.blue_bar li {
+    display: inline;
+    font-size: 15px;
+    padding: 2px;
+}
+
+.lab_background {
+    background-image: url(../images/lab.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-height: 30vw;
+}
+
+.lab_img li {
+    display: inline;
+
+}
+
+.library_background {
+    background-image: url(../images/pexels-stanislav-kondratiev-2908984.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-height: 30vw;
+}
+
+#button_1 button {
+    position: fixed;
+    font-size: small;
+    top: 50%;
+    left: 87%;
+    rotate: 90deg;
+}
+
+.my-sec {
+    height: 200px;
+    background-image: url('../images/lab.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.my-sec-inner {
+    background-color: rgba(0, 217, 255, 0.455);
+    /* opacity: 0.5; */
+    color: white;
+}
+
+.smi li {
+    list-style-type: none;
+    display: inline-block;
+    background-color: white;
+    color: red;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 150px;
+    font-size: 20px;
+}
+
+#color li a {
+    color: red;
+}

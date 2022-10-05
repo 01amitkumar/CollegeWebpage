@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- outer start -->
+        <!-- Top row -->
+        <div class="row bg-dark text-white">
+            <div class="col-sm-9">
+                <ul type="none" class="top_list pt-2">
+                    <li>Blog</li>
+                    <li>Video Gallery</li>
+                    <li>Image Gallery</li>
+                    <li>Download Brochure</li>
+                    <li><i class="fa-solid fa-phone"></i> 0-(522)-6196300/01/02 </li>
+                    <li><i class="fa-solid fa-envelope"></i> info@bbdu.org</li>
+                </ul>
+            </div>
+            <div class="col-sm-3 text-end">
+                <ul type="none" class="top_list pt-2">
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                    <li><i class="fa-brands fa-google-plus-g"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+            </div>
+        </div>
+        <!-- navbar -->
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="navbar navbar-expand-lg bg-light ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="images/bbd-logo-3.png" class="img-fluid"
+                                width="170vw" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="home.html">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="about.html">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="login.html">LOGIN</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page"
+                                        href="registration.html">REGISTRATION</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="contact.html">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- registration -->
+        <div class="row">
+            <div class="col-sm-12 w-50 my-4 border border-2 p-4 bg-info " style="margin-left:25vw ;">
+                <h1 class="text-primary">REGISTRATION FORM</h1><hr>
+                <form >
+                    <fieldset>
+                        NAME:
+                        <input type="text" class="form-control" name="name" required="true"
+                            placeholder="Enter Your Name" />
+                        F'Name:
+                        <input type="text" class="form-control" name="fname" placeholder="Enter Fathers Name" /><br>
+                        Gender:
+                        <input type="radio" name="a" required="true">Male
+                        <input type="radio" name="a" required="true">Female <br>
+                        MaritialStatus:
+                        <input type="radio" name="b">Married
+                        <input type="radio" name="b">Unmarried <br><br>
+                        
+                        <select class="form-control">
+                            <option>+91</option>
+                            <option>+92</option>
+                            <option>+93</option>
+                        </select>
+                        Mobile:<br>
+                        <input type="number" class="form-control">
+                        E-mail:
+                        <input type='email' class="form-control">
+                        Password:
+                        <input type="password" class="form-control">
+                        Upload Pic:
+                        <input type="file" class="form-control" />
+                        DOB:
+                        <input type="date" class="form-control" />
+                        Address:
+                        <textarea cols="20" rows="5" maxlength="10" class="form-control"></textarea>
+                        City:
+                        <select class="form-control">
+                            <option value="">--Select City--</option>
+                            <option>Lucknow</option>
+                            <option>Delhi</option>
+                            <option>Mumbai</option>
+                        </select><br>
+                        <input type="submit" class=" btn btn-outline-primary" />
+                        <input type="reset" class=" btn btn-outline-primary" />
+                        <input type="button" class=" btn btn-outline-primary" value="Print" onclick="window.print();">
+
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="row bg-dark text-white pt-4">
+            <h4 style="padding-left: 4vw;">REACH US</h4>
+            <div class="col-sm-4 ps-5">
+                <ul type="none">
+                    <li>> Babu Banarasi Das University</li>
+                    <li>> BBD City, Faizabad Road, Lucknow.</li>
+                    <li>> 0-(522)-6196300/301/302</li>
+                    <li>> 0-(522)-6196315/16/17/18</li>
+                    <li>> info@bbdu.org</li>
+                </ul>
+                <ul type="none" class="top_list">
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                    <li><i class="fa-brands fa-google-plus-g"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+
+            </div>
+            <div class="col-sm-4">
+                <h4>QUICK LINKS</h4>
+                <ul type="none">
+                    <li>> Academic Fee Payment</li>
+                    <li>> Admission</li>
+                    <li>> Blog</li>
+                    <li>> Academic</li>
+                    <li>> Career</li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <h4>EXAMINATIONS</h4>
+                <ul type="none">
+                    <li>> School and Branch Code 2021-22</li>
+                    <li>> School and Branch Code 2017-18</li>
+                    <li>> Examination Notices</li>
+                    <li>> Paper IDs & Codes</li>
+                    <li>> Result</li>
+                </ul>
+            </div>
+        </div>
+        <!-- outer end -->
+    </div>
+</body>
+
+</html>
